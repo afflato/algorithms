@@ -12,7 +12,7 @@ class QuickSort2 {
 		// print the original array
 		System.out.println("Original Array: " + Arrays.toString(data));
 		// call quick_sort routine using QuickSort object
-		QuickSort obj = new QuickSort();
+		QuickSort2 obj = new QuickSort2();
 		obj.quick_sort(data, 0, n - 1);
 		// print the sorted array
 		System.out.println("\nSorted Array: " + Arrays.toString(data));
@@ -54,4 +54,5 @@ class QuickSort2 {
 			quick_sort(intArray, low, pi - 1);
 			quick_sort(intArray, pi + 1, high);
 		}
-	}
+    }
+}
